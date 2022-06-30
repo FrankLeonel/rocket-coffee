@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  @apply bg-neutral-900 text-neutral-100 xs:bg-[url('../src/assets/images/blur-mobile.png')] bg-no-repeat md:bg-[url('../src/assets/images/blur-1.png'),_url('../src/assets/images/blur-2.png')] bg-[position:bottom_left,_top_right];
+  @apply bg-neutral-900 text-neutral-100 bg-[url('../src/assets/images/blur-mobile.png')] bg-no-repeat bg-bottom sm:bg-[url('../src/assets/images/blur-1.png')] sm:bg-[position:bottom_left] lg:bg-[url('../src/assets/images/blur-1.png'),_url('../src/assets/images/blur-2.png')] lg:bg-[position:bottom_left,_top_right];
   -webkit-font-smoothing: antialiased;
   margin: 0;
   overflow-x: hidden;

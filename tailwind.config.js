@@ -1,18 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: [],
+  content: ["./src/**/*.jsx"],
   theme: {
     extend: {
       fontFamily: {
         sans: "Manrope, sans-serif",
       },
       screens: {
-        xs: "0px",
-        sm: "468px",
-        xl: "1200px",
+        xs: "480px",
+        sm: "640px",
+        md: "769px",
+        lg: "1025px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
       colors: {
+        transparent: "transparent",
         neutral: {
           100: "#FAFAFA",
           900: "#000000",
