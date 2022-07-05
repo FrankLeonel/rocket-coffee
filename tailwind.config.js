@@ -30,7 +30,11 @@ module.exports = {
           800: "#29292e",
         },
       },
+      textShadow: {
+        shadow:
+          "-1px -1px 0 rgb(130,87,229), 1px -1px 0 rgb(130,87,229), -1px 1px 0 rgb(130,87,229), 1px 1px 0 rgb(130,87,229)",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-textshadow")],
 };

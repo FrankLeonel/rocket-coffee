@@ -45,7 +45,7 @@ const Header = () => {
         {!show ? <MenuOpen /> : <MenuClose />}
       </button>
 
-      <button className="hidden lg:block rounded-md border border-violet-500 py-3 px-10 font-extrabold text-xs uppercase">
+      <button className="hidden lg:block rounded-md border border-violet-500 py-3 px-10 font-extrabold text-xs uppercase focus:outline-none hover:bg-violet-500 hover:text-gray-200 transition-colors">
         Pegar meu café
       </button>
     </header>
